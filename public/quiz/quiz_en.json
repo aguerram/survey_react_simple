@@ -1,0 +1,940 @@
+{
+  "welcome": {
+    "header": "Get your custom Easy-Fitness Program Now!",
+    "content": "Welcome to our Fit-Quiz - our best in class tool that helps you find your lifestyle,find your happiness, find a fitness program that works for you because it is made for you!Fit can mean a number of different things, as we are all different. We are not one size fits all and your fitness program shouldn't be either!Take our Fit-Quiz to get the perfect fitness program for you!",
+    "questions": "Questions"
+  },
+  "data": [
+    {
+      "qstID": 1,
+      "qstText": "How old are you ?",
+      "type": "radio",
+      "size": 6,
+      "suggestions": [
+        {
+          "value": "18-30",
+          "label": "18-30"
+        },
+        {
+          "value": "31-45",
+          "label": "31-45"
+        },
+        {
+          "value": "46-60",
+          "label": "46-60"
+        },
+        {
+          "value": "+61",
+          "label": "+61"
+        }
+      ]
+    },
+    {
+      "qstID": 2,
+      "qstText": "I am",
+      "type": "radio",
+      "size": 6,
+      "suggestions": [
+        {
+          "value": "Female",
+          "label": "Female"
+        },
+        {
+          "value": "Other, prefer not to identify",
+          "label": "Other, prefer not to identify"
+        },
+        {
+          "value": "Male",
+          "label": "Male"
+        }
+      ]
+    },
+    {
+      "qstID": 3,
+      "qstText": "Are you happy with your current weight?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "No, I want to lose a lot of weight",
+          "label": "No, I want to lose a lot of weight"
+        },
+        {
+          "value": "Yes, I just want to maintain my actual weight",
+          "label": "Yes, I just want to maintain my actual weight "
+        },
+        {
+          "value": "Kind of , but I want to take a few pounds",
+          "label": "Kind of , but I want to take a few pounds"
+        },
+        {
+          "value": "Yes, but I want to gain muscle ",
+          "label": "Yes, but I want to gain muscle "
+        }
+      ]
+    },
+    {
+      "qstID": 4,
+      "qstText": "What is your body type?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "Apple",
+          "label": "Apple"
+        },
+        {
+          "value": "Hourglass ",
+          "label": "Hourglass "
+        },
+        {
+          "value": "Pear ",
+          "label": "Pear "
+        },
+        {
+          "value": "Rectangle ",
+          "label": "Rectangle "
+        }
+      ]
+    },
+    {
+      "qstID": 5,
+      "qstText": "How many times a week do you exercise?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "1-2 times a week ",
+          "label": "1-2 times a week "
+        },
+        {
+          "value": "3-4 times a week ",
+          "label": "3-4 times a week "
+        },
+        {
+          "value": "5-7 times a week ",
+          "label": "5-7 times a week "
+        },
+        {
+          "value": "Sometimes I go for a walk at lunchtime ",
+          "label": "Sometimes I go for a walk at lunchtime "
+        },
+        {
+          "value": "Never, I don't have time to go to the gym ",
+          "label": "Never, I don't have time to go to the gym "
+        }
+      ]
+    },
+    {
+      "qstID": 6,
+      "qstText": "How long do you usually workout for?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "Less than 20 minutes ",
+          "label": "Less than 20 minutes "
+        },
+        {
+          "value": "20-40 minutes",
+          "label": "20-40 minutes"
+        },
+        {
+          "value": "40-60 minutes",
+          "label": "40-60 minutes"
+        },
+        {
+          "value": "Depends on how much Time I have in the moment ",
+          "label": "Depends on how much Time I have in the moment "
+        }
+      ]
+    },
+    {
+      "qstID": 7,
+      "qstText": "How intense do you like your workouts?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "Extreme intensity - heart racing, sweat dripping intense ",
+          "label": "Extreme intensity - heart racing, sweat dripping intense "
+        },
+        {
+          "value": "High intensity - high intensity interval training with breaks ",
+          "label": "High intensity - high intensity interval training with breaks "
+        },
+        {
+          "value": "Moderate intensity - jog or weight lifting session ",
+          "label": "Moderate intensity - jog or weight lifting session "
+        },
+        {
+          "value": "Low intensity - yoga or a walk around the block ",
+          "label": "Low intensity - yoga or a walk around the block "
+        },
+        {
+          "value": "No intensity - Does eating count? ",
+          "label": "No intensity - Does eating count? "
+        }
+      ]
+    },
+    {
+      "qstID": 8,
+      "qstText": "How would you rate your fitness level? (1 being lowest and 5 being extremely",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        }
+      ]
+    },
+    {
+      "qstID": 9,
+      "qstText": "How do you feel when you wake up?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "Tired ",
+          "label": "Tired "
+        },
+        {
+          "value": "Energised",
+          "label": "Energised"
+        },
+        {
+          "value": "Sore",
+          "label": "Sore"
+        },
+        {
+          "value": "Excited to start my day",
+          "label": "Excited to start my day"
+        },
+        {
+          "value": "Stressed ",
+          "label": "Stressed "
+        }
+      ]
+    },
+    {
+      "qstID": 10,
+      "qstText": "How do you feel when you go to sleep?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "Tired ",
+          "label": "Tired "
+        },
+        {
+          "value": "Energised",
+          "label": "Energised"
+        },
+        {
+          "value": "Sore",
+          "label": "Sore"
+        },
+        {
+          "value": "Ready to goto sleep ",
+          "label": "Ready to goto sleep "
+        },
+        {
+          "value": "Stressed ",
+          "label": "Stressed "
+        }
+      ]
+    },
+    {
+      "qstID": 11,
+      "qstText": "How many hours do you generally sleep each night?",
+      "type": "radio",
+      "size": 6,
+      "suggestions": [
+        {
+          "value": "Less than 5 ",
+          "label": "Less than 5 "
+        },
+        {
+          "value": "5-6 Hours ",
+          "label": "5-6 Hours "
+        },
+        {
+          "value": "I need a solid 9 Hours ",
+          "label": "I need a solid 9 Hours "
+        },
+        {
+          "value": "More than 9 Hours ",
+          "label": "More than 9 Hours "
+        }
+      ]
+    },
+    {
+      "qstID": 12,
+      "qstText": "When do you feel your best?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "In the morning, after a big sleep ",
+          "label": "In the morning, after a big sleep "
+        },
+        {
+          "value": "After a workout, because ENDROPHINS!",
+          "label": "After a workout, because ENDROPHINS!"
+        },
+        {
+          "value": "After I meditate ",
+          "label": "After I meditate "
+        },
+        {
+          "value": "Following a catch up with friends ",
+          "label": "Following a catch up with friends "
+        }
+      ]
+    },
+    {
+      "qstID": 13,
+      "qstText": "How would you rate your mental health?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "Poor, I don't prioritise myself or my mental health ",
+          "label": "Poor, I don't prioritise myself or my mental health "
+        },
+        {
+          "value": "Good, but I want to prioritise myself more ",
+          "label": "Good, but I want to prioritise myself more "
+        },
+        {
+          "value": "Great, I put myself first every day and want to continue doing so ",
+          "label": "Great, I put myself first every day and want to continue doing so "
+        }
+      ]
+    },
+    {
+      "qstID": 14,
+      "qstText": "How is your appetite?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "I have a great appetite and enjoy food ",
+          "label": "I have a great appetite and enjoy food "
+        },
+        {
+          "value": "I am very picky about food and generally have a reduced appetite ",
+          "label": "I am very picky about food and generally have a reduced appetite "
+        },
+        {
+          "value": "I have a great appetite but eat too quick to enjoy food ",
+          "label": "I have a great appetite but eat too quick to enjoy food "
+        },
+        {
+          "value": "I am too busy to eat and don't notice when I am hungry ",
+          "label": "I am too busy to eat and don't notice when I am hungry "
+        }
+      ]
+    },
+    {
+      "qstID": 15,
+      "qstText": "How would you rate your health?",
+      "type": "radio",
+      "size": 6,
+      "suggestions": [
+        {
+          "value": "Amazing ",
+          "label": "Amazing "
+        },
+        {
+          "value": "Great ",
+          "label": "Great "
+        },
+        {
+          "value": "Average ",
+          "label": "Average "
+        },
+        {
+          "value": "Poor ",
+          "label": "Poor "
+        }
+      ]
+    },
+    {
+      "qstID": 16,
+      "qstText": "You are going through a tough time, how do you cope?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "Exercise ",
+          "label": "Exercise "
+        },
+        {
+          "value": "Meditate and write down all my thoughts ",
+          "label": "Meditate and write down all my thoughts "
+        },
+        {
+          "value": "Speak to a professional ",
+          "label": "Speak to a professional "
+        },
+        {
+          "value": "Keep it to myself I will get through it ",
+          "label": "Keep it to myself I will get through it "
+        }
+      ]
+    },
+    {
+      "qstID": 17,
+      "qstText": "What's your main health goal?",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "Tone Up ",
+          "label": "Tone Up "
+        },
+        {
+          "value": "Lose weight G ",
+          "label": "Lose weight G "
+        },
+        {
+          "value": "Increase general fitness and wellbeing- I want to feel happy, healthy and beautiful every day ",
+          "label": "Increase general fitness and wellbeing- I want to feel happy, healthy and beautiful every day "
+        },
+        {
+          "value": "Become stronger ",
+          "label": "Become stronger "
+        },
+        {
+          "value": "Train for a personal health goal ",
+          "label": "Train for a personal health goal "
+        },
+        {
+          "value": "Stop dieting and live a balanced life ",
+          "label": "Stop dieting and live a balanced life "
+        },
+        {
+          "value": "Increase wellbeing and learn to meditate ",
+          "label": "Increase wellbeing and learn to meditate "
+        }
+      ]
+    },
+    {
+      "qstID": 18,
+      "qstText": "Do you have other fitness goals? (Select all that apply) ",
+      "type": "checkbox",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "Tone Up ",
+          "label": "Tone Up "
+        },
+        {
+          "value": "Lose weight G ",
+          "label": "Lose weight G "
+        },
+        {
+          "value": "Increase general fitness and wellbeing- I want to feel happy, healthy and beautiful every day ",
+          "label": "Increase general fitness and wellbeing- I want to feel happy, healthy and beautiful every day "
+        },
+        {
+          "value": "Become stronger ",
+          "label": "Become stronger "
+        },
+        {
+          "value": "Train for a personal health goal ",
+          "label": "Train for a personal health goal "
+        },
+        {
+          "value": "Stop dieting and live a balanced life ",
+          "label": "Stop dieting and live a balanced life "
+        },
+        {
+          "value": "Increase wellbeing and learn to meditate ",
+          "label": "Increase wellbeing and learn to meditate "
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ]
+    },
+    {
+      "qstID": 19,
+      "qstText": "Do you have other fitness goals? (Select all that apply)",
+      "type": "checkbox",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "Gain muscle ",
+          "label": "Gain muscle "
+        },
+        {
+          "value": "Tone Up",
+          "label": "Tone Up"
+        },
+        {
+          "value": "Train (gain strength and endurance) ",
+          "label": "Train (gain strength and endurance) "
+        },
+        {
+          "value": "Recover or strengthen ",
+          "label": "Recover or strengthen "
+        },
+        {
+          "value": "Maintain and optimize ",
+          "label": "Maintain and optimize "
+        },
+        {
+          "value": "Improve cardiovascular health ",
+          "label": "Improve cardiovascular health "
+        }
+      ]
+    },
+    {
+      "qstID": 20,
+      "qstText": "Do you want to lose weight?",
+      "type": "radio",
+      "size": 4,
+      "suggestions": [
+        {
+          "value": "Yes",
+          "label": "Yes"
+        },
+        {
+          "value": "No",
+          "label": "No"
+        },
+        {
+          "value": "Maybe",
+          "label": "Maybe"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ]
+    },
+    {
+      "qstID": 21,
+      "qstText": "What is your main go-to exercise?",
+      "type": "radio",
+      "size": 4,
+      "suggestions": [
+        {
+          "value": "A walk around the block",
+          "label": "A walk around the block",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-03%20%C3%A0%2022.37.03.5eb08853e88960.28640274.png"
+        },
+        {
+          "value": "A group fitness class or exercising with friends",
+          "label": "A group fitness class or exercising with friends",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-03%20%C3%A0%2022.37.38.5eb088871abc29.09636017.png"
+        },
+        {
+          "value": "Running, cycling or other form of cardio",
+          "label": "Running, cycling or other form of cardio",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-03%20%C3%A0%2022.37.30.5eaf483f55c3b1.41042931.png"
+        },
+        {
+          "value": "Weight training.",
+          "label": "Weight training.",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-03%20%C3%A0%2022.37.47.5eaf482ba46651.76563862.png"
+        },
+        {
+          "value": "HIIT training",
+          "label": "HIIT training",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-03%20%C3%A0%2022.37.55.5eb088a37cb900.37699304.png"
+        },
+        {
+          "value": "Pilates or yoga",
+          "label": "Pilates or yoga",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-03%20%C3%A0%2022.37.22.5eaf4819aff315.96917259.png"
+        }
+      ]
+    },
+    {
+      "qstID": 22,
+      "qstText": "What are your favorite ways to exercise on your own? (Select all that apply)",
+      "type": "checkbox",
+      "size": 4,
+      "suggestions": [
+        {
+          "value": "Yoga",
+          "label": "Yoga",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.29.26.5eb08981990d23.34105519.png"
+        },
+        {
+          "value": "Pilates",
+          "label": "Pilates",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.29.41.5eb0898ecf29e5.81170172.png"
+        },
+        {
+          "value": "Weight lifting / crossfit",
+          "label": "Weight lifting / crossfit",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.29.51.5eb0899dc0f124.79768020.png"
+        },
+        {
+          "value": "Body weight exercises",
+          "label": "Body weight exercises",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.30.22.5eb089af4176e7.30219903.png"
+        },
+        {
+          "value": "Cardio (i.e. boxing, running, cycling, swimming)",
+          "label": "Cardio (i.e. boxing, running, cycling, swimming)",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.30.08.5eb089c01fa5f9.91574245.png"
+        }
+      ]
+    },
+    {
+      "qstID": 23,
+      "qstText": "What kind of cardio workouts do you prefer? (Select all that apply)",
+      "type": "checkbox",
+      "size": 4,
+      "suggestions": [
+        {
+          "value": "Running",
+          "label": "Running",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.34.01.5eb08a96389234.99211697.png"
+        },
+        {
+          "value": "Swimming",
+          "label": "Swimming",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.34.09.5eb08ab01bba63.17127038.png"
+        },
+        {
+          "value": "Cycling",
+          "label": "Cycling",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.34.20.5eb08b0ead1ac1.92583163.png"
+        },
+        {
+          "value": "Walking",
+          "label": "Walking",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.34.51.5eb08b68a99177.64018615.png"
+        },
+        {
+          "value": "Other sports (boxing, basketball, tennis, etc)",
+          "label": "Other sports (boxing, basketball, tennis, etc)",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.34.29.5eb08b30dac846.96353246.png"
+        },
+        {
+          "value": "None, I hate cardio",
+          "label": "None, I hate cardio",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.34.39.5eb08b482d6795.80018107.png"
+        }
+      ]
+    },
+    {
+      "qstID": 24,
+      "qstText": "Where do you prefer to workout? (Select all that apply)",
+      "type": "checkbox",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "At Home",
+          "label": "At Home"
+        },
+        {
+          "value": "Outside (in my yard, on the street or at a park)",
+          "label": "Outside (in my yard, on the street or at a park)"
+        },
+        {
+          "value": "In a swimming pool or in the ocean",
+          "label": "In a swimming pool or in the ocean"
+        },
+        {
+          "value": "At a gym",
+          "label": "At a gym"
+        }
+      ]
+    },
+    {
+      "qstID": 25,
+      "qstText": "How do you prefer to exercise? (You may select up to three options)",
+      "type": "checkbox",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "Alone",
+          "label": "Alone"
+        },
+        {
+          "value": "With my partner or a friend",
+          "label": "With my partner or a friend"
+        },
+        {
+          "value": "With a small group of friends",
+          "label": "With a small group of friends"
+        },
+        {
+          "value": "At a gym",
+          "label": "At a gym"
+        },
+        {
+          "value": "I need a personal trainer",
+          "label": "I need a personal trainer"
+        },
+        {
+          "value": "An exercise class with lots of other people (even if its online!)",
+          "label": "An exercise class with lots of other people (even if its online!)"
+        }
+      ]
+    },
+    {
+      "qstID": 26,
+      "qstText": "Would you like to focus on improving specific body areas? (Select all that apply)\n",
+      "type": "checkbox",
+      "size": 4,
+      "suggestions": [
+        {
+          "value": "Legs, thighs and glutes",
+          "label": "Legs, thighs and glutes",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/image.5efb2bff317b57.52510973.jpeg"
+        },
+        {
+          "value": "Abs and core",
+          "label": "Abs and core",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Ab-Roller-Big-wheel-Abdominal-Muscle-Trainer-for-Fitness-Abs-Core-Workout-Abdominal-Muscles-Training-Home.5efb2c16e66855.80149710.jpg"
+        },
+        {
+          "value": "Back and shoulders",
+          "label": "Back and shoulders",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/back-exercises-1576600971.5efb2c2ff06433.01457196.jpg"
+        },
+        {
+          "value": "Arms and chest",
+          "label": "Arms and chest",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/plank.5efb2c4a4afb38.47181920.jpg"
+        },
+        {
+          "value": "No, I want a full body balanced approach",
+          "label": "No, I want a full body balanced approach",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/bodybalance_fb-sharing.5efb2c6482c2f3.01210040.png"
+        }
+      ]
+    },
+    {
+      "qstID": 27,
+      "qstText": "Have you suffered any recent sport-related injuries or had any recent surgeries? (Past 12 months only)",
+      "type": "radio",
+      "size": 6,
+      "suggestions": [
+        {
+          "value": "Yes",
+          "label": "Yes"
+        },
+        {
+          "value": "No",
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "qstID": 28,
+      "qstText": "Previous injuries or areas of concern with which to exercise caution for your fitness routine? (Select all that apply)",
+      "type": "checkbox",
+      "size": 6,
+      "suggestions": [
+        {
+          "value": "Knees",
+          "label": "Knees"
+        },
+        {
+          "value": "Ankles, Achilles or calves",
+          "label": "Ankles, Achilles or calves"
+        },
+        {
+          "value": "Back, shoulders or arms",
+          "label": "Back, shoulders or arms"
+        },
+        {
+          "value": "Core or abs",
+          "label": "Core or abs"
+        },
+        {
+          "value": "Hips",
+          "label": "Hips"
+        },
+        {
+          "value": "None",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "qstID": 29,
+      "qstText": "Do you have access to basic exercise equipment?",
+      "type": "radio",
+      "size": 4,
+      "suggestions": [
+        {
+          "value": "Yes",
+          "label": "Yes",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.46.52.5eb08d6f87b586.62919523.png"
+        },
+        {
+          "value": "No",
+          "label": "No",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.46.39.5eb08d8232a839.68860875.png"
+        },
+        {
+          "value": "I have access but prefer body weight based exercises",
+          "label": "I have access but prefer body weight based exercises",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.47.03.5eb08d902fa6c7.31453206.png"
+        }
+      ]
+    },
+    {
+      "qstID": 30,
+      "qstText": "Do you want us to include cardio in your weekly fitness routine?",
+      "type": "radio",
+      "size": 6,
+      "suggestions": [
+        {
+          "value": "Yes",
+          "label": "Yes"
+        },
+        {
+          "value": "No",
+          "label": "No"
+        },
+        {
+          "value": "Sometimes",
+          "label": "Sometimes"
+        }
+      ]
+    },
+    {
+      "qstID": 31,
+      "qstText": "Desired workout frequency?",
+      "type": "radio",
+      "size": 6,
+      "suggestions": [
+        {
+          "value": "5-7 workouts a week",
+          "label": "5-7 workouts a week"
+        },
+        {
+          "value": "3-4 workouts a week",
+          "label": "3-4 workouts a week"
+        },
+        {
+          "value": "1-2 workouts a week",
+          "label": "1-2 workouts a week"
+        },
+        {
+          "value": "More than 7 workouts a week",
+          "label": "More than 7 workouts a week"
+        }
+      ]
+    },
+    {
+      "qstID": 32,
+      "qstText": "Desired time length of each workout",
+      "type": "radio",
+      "size": 12,
+      "suggestions": [
+        {
+          "value": "5-10 sessions (highest frequency)",
+          "label": "5-10 sessions (highest frequency)"
+        },
+        {
+          "value": "10-25 minutes sessions (high frequency)",
+          "label": "10-25 minutes sessions (high frequency)"
+        },
+        {
+          "value": "25-40 minutes sessions (average)",
+          "label": "25-40 minutes sessions (average)"
+        },
+        {
+          "value": "40-60 minutes (above average)",
+          "label": "40-60 minutes (above average)"
+        },
+        {
+          "value": "> 60 minutes (power moves)",
+          "label": "> 60 minutes (power moves)"
+        }
+      ]
+    },
+    {
+      "qstID": 33,
+      "qstText": "Would you like us to include wellness advice?",
+      "type": "checkbox",
+      "size": 4,
+      "suggestions": [
+        {
+          "value": "No, Lets just stick to fitness",
+          "label": "No, Lets just stick to fitness",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.53.56.5eb08ff884f8a6.99460337.png"
+        },
+        {
+          "value": "Bridging the mind and body",
+          "label": "Bridging the mind and body",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.53.45.5eb08fcfa0a0c0.90234282.png"
+        },
+        {
+          "value": "Healthy cooking ideas",
+          "label": "Healthy cooking ideas",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.53.37.5eb08fa4b6c413.15592346.png"
+        },
+        {
+          "value": "Balance and inner strength",
+          "label": "Balance and inner strength",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.54.14.5eb08f769e2628.98661470.png"
+        },
+        {
+          "value": "Stretching and lengthening",
+          "label": "Stretching and lengthening",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.54.21.5eb08f51807390.18995753.png"
+        },
+        {
+          "value": "Stress relief",
+          "label": "Stress relief",
+          "img": "https://www.jotform.com/uploads/labied.ml/form_files/Capture%20d%E2%80%99%C3%A9cran%202020-05-04%20%C3%A0%2021.54.35.5eb08f3f0ed1d2.22012366.png"
+        }
+      ]
+    },
+    {
+      "qstID": 34,
+      "qstText": "Are you interested in incorporating meditations to your fitness routine?",
+      "type": "radio",
+      "size": 6,
+      "suggestions": [
+        {
+          "value": "Yes, a few times a week",
+          "label": "Yes, a few times a week"
+        },
+        {
+          "value": "Sometimes, once a week",
+          "label": "Sometimes, once a week"
+        },
+        {
+          "value": "No, not interested",
+          "label": "No, not interested"
+        },
+        {
+          "value": "Seldom, once or twice a month",
+          "label": "Seldom, once or twice a month"
+        }
+      ]
+    }
+  ]
+}
